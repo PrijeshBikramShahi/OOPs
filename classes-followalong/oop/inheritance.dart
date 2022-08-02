@@ -17,7 +17,8 @@ class Admin extends User {
     String bio = "this is bio"
 
   }):super(
-    Username:name,
+    Username :name,
+    age : age,
 
   )
 }

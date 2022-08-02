@@ -30,7 +30,12 @@ class Tablet extends Gadget {
     required String deviceName,
     required String ownerName,
     required int price,
-  }) : super(deviceName: deviceName, ownerName: ownerName, price: price) {}
+    required this.screenSize,
+  }) : super(
+          deviceName: deviceName,
+          ownerName: ownerName,
+          price: price,
+        ) {}
   deviceDetails() {
     print("$deviceName, $ownerName, $price, ");
   }
